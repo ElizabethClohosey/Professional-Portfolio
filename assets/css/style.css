@@ -25,7 +25,7 @@ body {
 }
 
 .pad-bottom {
-    padding-bottom: 60px;
+    padding-bottom: 2%;
 }
 
 section {
@@ -303,8 +303,9 @@ padding:0px;
 }
 
 .media img {
-    margin-right: 40px;
-    max-height: 150px;
+    margin-left: 20%;
+    /* margin-right: 40px; */
+    max-height: 250px;
     margin-bottom: 20px;
     border: 2px solid #9c22ff;
 }
