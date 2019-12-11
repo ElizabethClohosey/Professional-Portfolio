@@ -29,8 +29,10 @@ body {
 }
 
 section {
-    padding-bottom: 120px;
-    padding-top: 100px;
+    /* padding-bottom: 120px; */
+    /* padding-top: 100px; */
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 .btn {
@@ -337,21 +339,27 @@ padding:0px;
   FOOTER SECTION STYLES
  ============================================================ */
 footer {
-    padding: 20px;
-    font-size: 15px;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    font-size: .5em;
     text-align: center;
-    font-weight: 900;
+    font-weight: 800;
     color: white;
     background-color: rgb(0, 0, 0, 0.8);
 }
 
     footer .credits {
         color: white;
-        margin-right: 5%;
     }
 
-    footer p {
-        text-align: center;
+    /* footer a {
+        justify-content: center;
+    } */
+
+    footer h4 {
+        font-size: 1.5em;
+        font-weight: 800;
+        margin-bottom: 0;
     }
     
     footer a, footer a:hover {
