@@ -261,7 +261,6 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    /* border: 2px solid #9c22ff; */
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
@@ -295,18 +294,21 @@ padding:0px;
     color: #9c22ff;
 }
 
+
 /* ========= NEW CODE ================= */
 
 #works img {
-    filter: gray; /* FOR IE6-9 */
-    -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-    opacity: 0.8;
+    border: 2px solid #9c22ff;
+    filter: none; /* FOR IE6-9 */
+        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+        opacity: 1;
+   
 }
 
     #works img:hover {
-        filter: none; /* FOR IE6-9 */
-        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-        opacity: 1;
+        filter: gray; /* FOR IE6-9 */
+        -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+        opacity: 0.8;
     }
 /* =============================================================
   TESTIMONIAL SECTION STYLES
