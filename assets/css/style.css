@@ -143,12 +143,14 @@ padding:0px;
     }
 
     #header h1 {
-        line-height: 60px;
-        font-size: 45px;
-        font-weight: 900;
-        padding-top: 180px;
-        padding-bottom: 35px;
+        /* font-size: 45px; */
+        font-size: 4.5em;
+        font-weight: 400;
+        /* padding-top: 180px; */
+        padding-top: 35%;
+        /* padding-bottom: 35px; */
         color: #9c22ff;
+        font-family: 'Lobster', cursive;
     }
 
 
@@ -170,6 +172,11 @@ padding:0px;
         font-size: 80px;
         padding: 30px;
         color: #9c22ff;
+    }
+
+    #services h2 {
+        font-family: 'Lobster', cursive;
+        font-size: 3.5em;
     }
 
     #services h4 {
@@ -260,13 +267,15 @@ padding:0px;
     transition-duration: 0.8s;
 }
 
+#works h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 3.5em;
+}
+
 #works .work-wrapper {
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
-
-
-/* ========= NEW CODE ================= */
 
 .work-wrapper a{
     text-decoration: none;
@@ -337,6 +346,11 @@ padding:0px;
     background-color: rgba(237, 237, 237, 1);
 }
 
+#team h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 3.5em;
+}
+
 .media img {
     /* margin-left: 20%; */
     /* margin-right: 40px; */
@@ -348,6 +362,16 @@ padding:0px;
     .media img:hover {
         opacity: 0.6;
     }
+
+.media-heading {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+
+#about-me,
+#my-interests {
+    font-size: 1.25em;    
+}
 /* =============================================================
   CONTACT SECTION STYLES
  ============================================================ */
